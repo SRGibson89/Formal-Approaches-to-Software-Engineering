@@ -1,0 +1,14 @@
+﻿<Window x:Class="Exercise_10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exercise_10"
+        
+        Title="Exercise 10" Height="350" Width="525" Background="#FFFFFAC7">
+    <Grid>
+        <Button Content="GO" Margin="208,227,209,0" VerticalAlignment="Top" Height="35" FontSize="23" Click="Button_Click"/>
+        <Label x:Name="lblAnswer" Content="Label" Margin="95,161,95,0" VerticalAlignment="Top" Height="49"/>
+
+    </Grid>
+</Window>
