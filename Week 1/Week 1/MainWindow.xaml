@@ -1,0 +1,17 @@
+﻿<Window x:Class="Week_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Week_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="btngo" Content="Go" Height="36" Margin="200,200,200,0" VerticalAlignment="Top" FontSize="24" Click="btngo_Click"/>
+        <ListBox x:Name="lstprimes" Height="115" Margin="110,65,110,0" VerticalAlignment="Top"/>
+        <Label Content="n² - n + 41 = Prime Number" Margin="150,28,150
+               ,0" VerticalAlignment="Top" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lblPrime" Content="" Margin="150,259,150,0" VerticalAlignment="Top" HorizontalContentAlignment="Center"/>
+
+    </Grid>
+</Window>
